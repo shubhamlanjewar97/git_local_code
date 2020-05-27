@@ -1,0 +1,7 @@
+************Pointers vs Refrence****************
+Use Refrences:
+	>In function parameters and return types
+Use Pointers:
+	>If pointer arithmatic or passing NULL pointer is needed(e.g. for arrays)
+	>To implement DS like linked list, tree
+

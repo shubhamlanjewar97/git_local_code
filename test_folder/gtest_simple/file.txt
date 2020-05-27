@@ -1,0 +1,1000 @@
+ 1081  python3 manage.py runserver
+ 1082  grep -Ir "urlpatterns"
+ 1083  python3 manage.py runserver
+ 1084  cd ../
+ 1085  ll
+ 1086  git clone https://github.com/pennersr/django-allauth.git
+ 1087  ll
+ 1088  cd django-allauth/
+ 1089  ll
+ 1090  python3 manage.py showmigrations
+ 1091  python3 manage.py migrate
+ 1092  python3 manage.py showmigrations
+ 1093  python3 manage.py migrate
+ 1094  python3 manage.py showmigrations
+ 1095  python3 manage.py createsuperuser
+ 1096  ll
+ 1097  cd ../
+ 1098  ll
+ 1099  git clone
+ 1100  cd django-allauth/
+ 1101  python3 manage.py makemigrations
+ 1102  cd ../
+ 1103  git clone https://github.com/aellerton/demo-allauth-bootstrap.git
+ 1104  ll
+ 1105  cd demo-allauth-bootstrap/
+ 1106  LL
+ 1107  lll
+ 1108  ll
+ 1109  python3 configure.py
+ 1110  python3 manage.py runserver
+ 1111  ll
+ 1112  pip3 install -r requirements.txt 
+ 1113  python3 manage.py runserver
+ 1114  ll
+ 1115  cd config/
+ 1116  LL
+ 1117  ll
+ 1118  vim settings.
+ 1119  vim settings.py 
+ 1120  grep -lIr "config"
+ 1121  grep -Ir "config"
+ 1122  cd ../
+ 1123  ll
+ 1124  grep -Ir "config"
+ 1125  python3 manage.py runserver
+ 1126  ll
+ 1127  cd config/
+ 1128  ll
+ 1129  cd ../
+ 1130  ll
+ 1131  vim manage.py 
+ 1132  cd ../
+ 1133  ll
+ 1134  rm -rf demo-allauth-bootstrap/
+ 1135  ll
+ 1136  git clone https://github.com/percipient/django-allauth-2fa.git
+ 1137  ll
+ 1138  cd django-allauth-2fa/
+ 1139  ll
+ 1140  python3 manage.py makemigrations
+ 1141  ll
+ 1142  pip3 install -r requirements.txt 
+ 1143  ll
+ 1144  python3 manage.py makemigrations
+ 1145  python3 manage.py showmigrations
+ 1146  python3 manage.py migrate
+ 1147  python3 manage.py showmigrations
+ 1148  ll
+ 1149  python3 manage.py runserver
+ 1150  python3 manage.py migrate
+ 1151  python3 manage.py runserver
+ 1152  ll
+ 1153  python3 manage.py test
+ 1154  python3 manage.py migrate
+ 1155  python3 manage.py showmigrations
+ 1156  python3 manage.py runserver
+ 1157  cd ../
+ 1158  ll
+ 1159  rm -rf django-allauth django-allauth-2fa/
+ 1160  ll
+ 1161  git clone https://github.com/sarahhagstrom/vort-larb.git
+ 1162  ll
+ 1163  cp -r django/ django_wisdon
+ 1164  cp -r django/ django_wisdom
+ 1165  ll
+ 1166  rm -rf django_wisdon
+ 1167  ll
+ 1168  cd vort-larb/
+ 1169  ll
+ 1170  python3 manage.py showmigrations
+ 1171  ll
+ 1172  pip3 install -r requirements.txt 
+ 1173  ll
+ 1174  python3 manage.py runserver
+ 1175  ll
+ 1176  python3 manage.py showmigrations
+ 1177  deactivate
+ 1178  ll
+ 1179  virtualenv  vortenv
+ 1180  ll
+ 1181  source vortenv/bin/activate
+ 1182  ll
+ 1183  pip3 install -r requirements.txt 
+ 1184  ll
+ 1185  python3 manage.py showmigrations
+ 1186  grep -lIr "importlib"
+ 1187  grep -Ir "importlib"
+ 1188  python3 manage.py showmigrations
+ 1189  grep -Ir "from django.utils import importlib"
+ 1190  grep -Ir "from django.utils import"
+ 1191  grep -Ir "django.utils"
+ 1192  vim vort/settings.py 
+ 1193  vim /home/shubham/.local/lib/python3.6/site-packages/allauth/socialaccount/providers/__init__.py
+ 1194  python3 manage.py showmigrations
+ 1195  python manage.py showmigrations
+ 1196  ll
+ 1197  pip install -p requirements.txt 
+ 1198  pip install -r requirements.txt 
+ 1199  ll
+ 1200  python manage.py showmigrations
+ 1201  vim /home/shubham/code/vort-larb/vortenv/lib/python2.7/site-packages/allauth/socialaccount/providers/__init__.py
+ 1202  python manage.py showmigrations
+ 1203  pip3 install djangorestframework==3.10.3
+ 1204  ll
+ 1205  python3 manage.py showmigrations
+ 1206  vim /home/shubham/.local/lib/python3.6/site-packages/allauth/account/models.py
+ 1207  python3 manage.py showmigrations
+ 1208  vim /home/shubham/.local/lib/python3.6/site-packages/allauth/account/models.py
+ 1209  python3 manage.py showmigrations
+ 1210  vim /home/shubham/.local/lib/python3.6/site-packages/allauth/account/utils.py
+ 1211  python3 manage.py showmigrations
+ 1212  python manage.py showmigrations
+ 1213  ll
+ 1214  deactivate
+ 1215  ll
+ 1216  rm -rf vortenv/
+ 1217  ll
+ 1218  virtualenv  vortenv
+ 1219  ll
+ 1220  vim requirements.txt 
+ 1221  python -v
+ 1222  man python
+ 1223  python -V
+ 1224  ll
+ 1225  source vortenv/bin/activate
+ 1226  ll
+ 1227  pip install -r requirements.txt 
+ 1228  ll
+ 1229  python manage.py showmigrations
+ 1230  cd ../
+ 1231  ll
+ 1232  cd Yearbook/
+ 1233  ll
+ 1234  python3 manage.py runserver
+ 1235  deactivate
+ 1236  ll
+ 1237  source yerbookenv/bin/activate
+ 1238  ll
+ 1239  python3 manage.py runserver
+ 1240  ll
+ 1241  deactivate
+ 1242  ll
+ 1243  rm -rf yerbookenv/
+ 1244  ll
+ 1245  virtualenv yearbookenv
+ 1246  source yearbookenv/bin/activate
+ 1247  ll
+ 1248  pip3 install -r requirements.txt 
+ 1249  python3 manage.py runserver
+ 1250  pip3 install -r requirements.txt 
+ 1251  python3 manage.py runserver
+ 1252  ll
+ 1253  deactiavte
+ 1254  ll
+ 1255  apt uninstall python3
+ 1256  deactivate
+ 1257  ll
+ 1258  man pip3
+ 1259  pip3 uninstall django
+ 1260  pip3 uninstall django-allauth
+ 1261  pip3 uninstall python3
+ 1262  pip3 uninstall python
+ 1263  pip list
+ 1264  pip freeze | xargs pip uninstall -y
+ 1265  sudo pip freeze | xargs pip uninstall -y
+ 1266  ll
+ 1267  rm yearbookenv/
+ 1268  ll
+ 1269  rm -rf yearbookenv/
+ 1270  ll
+ 1271  man virtualenv 
+ 1272  sudo pip3 freeze | xargs pip uninstall -y
+ 1273  pip3 freeze | xargs pip uninstall -y
+ 1274  pip list
+ 1275  pip uninstall django-registration-defaults
+ 1276  sudopip uninstall django-registration-defaults
+ 1277  sudo pip uninstall django-registration-defaults
+ 1278  ll
+ 1279  pip list
+ 1280  pip3 list
+ 1281  pip3 uninstall 
+ 1282  pip3 uninstall Django (3.0.3)
+ 1283  pip3 uninstall Django 
+ 1284  cd ../
+ 1285  ll
+ 1286  vim unin.txt
+ 1287  pip3 uninstall -r unin.txt 
+ 1288  y
+ 1289  pip3 list
+ 1290  pip3 uninstall Django
+ 1291  pip3 list
+ 1292  ll
+ 1293  vim unin.txt 
+ 1294  pip3 uninstall -r unin.txt 
+ 1295  vim unin.txt 
+ 1296  pip3 uninstall -r unin.txt 
+ 1297  y
+ 1298  pip3 list
+ 1299  pip3 uninstall Django
+ 1300  pip3 list
+ 1301  pip3 uninstall Django
+ 1302  pip3 list
+ 1303  pip3 help uninstall
+ 1304  cd Yearbook/
+ 1305  ll
+ 1306  virtualenv yearbookenv
+ 1307  pip3 install virtualenv
+ 1308  ll
+ 1309  virtualenv yearbookenv
+ 1310  ll
+ 1311  source yearbookenv/bin/activate
+ 1312  ll
+ 1313  pip3 list
+ 1314  pip list
+ 1315  ll
+ 1316  pip3 install -r requirements.txt 
+ 1317  python manage.py showmigrations
+ 1318  python3 manage.py runserver
+ 1319  grep -lIr "YearBook"
+ 1320  vim myapp/templates/myapp/index.html
+ 1321  python3 manage.py runserver
+ 1322  ll
+ 1323  cd myapp/
+ 1324  ll
+ 1325  vim urls.py 
+ 1326  cd ../
+ 1327  python3 manage.py runserver
+ 1328  python3 manage.py syncdb
+ 1329  ll
+ 1330  manage.py help
+ 1331  ./manage.py syncdb
+ 1332  python3 manage.py runserver
+ 1333  ll
+ 1334  rm db.sqlite3 
+ 1335  python3 manage.py makemigrations
+ 1336  python3 manage.py migrate
+ 1337  ll
+ 1338  python3 manage.py runserver
+ 1339  python3 manage.py createsuperuser
+ 1340  python3 manage.py runserver
+ 1341  grep -lr "authenticate"
+ 1342  grep -lIr "authenticate"
+ 1343  grep -lr "def authenticate"
+ 1344  ll
+ 1345  vim year15.log 
+ 1346  vim form_new.csv 
+ 1347  vim csvToData.py 
+ 1348  ./CsvToDatabase.py 
+ 1349  python3 CsvToDatabase.py 
+ 1350  exit
+ 1351  exit()
+ 1352  exit
+ 1353  cd code/Yearbook/
+ 1354  ll
+ 1355  source yearbookenv/
+ 1356  source yearbookenv/bin/activate
+ 1357  python3 manage.py configure
+ 1358  python3 CsvToDatabase.py 
+ 1359  export DJANGO_SETTINGS_MODULE=Yearbook.settings
+ 1360  python3 CsvToDatabase.py 
+ 1361  export DJANGO_SETTINGS_MODULE=myapp.settings
+ 1362  python3 CsvToDatabase.py 
+ 1363  export DJANGO_SETTINGS_MODULE=Yearbook.settings
+ 1364  python3 CsvToDatabase.py 
+ 1365  ll
+ 1366  cd Scrape/
+ 1367  ll
+ 1368  cd ../
+ 1369  ll
+ 1370  find . -iname "pass.csv"
+ 1371  python3 CsvToDatabase.py 
+ 1372  ll
+ 1373  vim csvToData.py 
+ 1374  ll
+ 1375  python3 createpass.py 
+ 1376  touch pass.csv
+ 1377  python3 createpass.py 
+ 1378  ll
+ 1379  vim pass.csv 
+ 1380  ll
+ 1381  python3 CsvToDatabase.py 
+ 1382  ll
+ 1383  python3 manage.py runserver
+ 1384  grep -lr "BaseBackend"
+ 1385  grep -r "BaseBackend"
+ 1386  grep -ir "BaseBackend"
+ 1387  grep -ir "Backend"
+ 1388  grep -ilIr "Backend"
+ 1389  ll
+ 1390  python3 manage.py runserver
+ 1391  python manage.py migrate --run-syncdb
+ 1392  python3 manage.py migrate --run-syncdb
+ 1393  python3 manage.py runserver
+ 1394  grep -lr "is_authenticated"
+ 1395  python3 manage.py runserver
+ 1396  4
+ 1397  ll
+ 1398  cd ../
+ 1399  ll
+ 1400  mkdir gtest_jio
+ 1401  ll
+ 1402  rm gtest_jio/
+ 1403  ll
+ 1404  deactivate
+ 1405  ll
+ 1406  rm -rf gtest_jio/
+ 1407  ll
+ 1408  mkdir jio_gtest
+ 1409  ll
+ 1410  cd jio_gtest/
+ 1411  ll
+ 1412  virtualenv jiotest
+ 1413  ll
+ 1414  vim touch.cpp
+ 1415  ll
+ 1416  cd ../
+ 1417  ll
+ 1418  rm jio_gtest/
+ 1419  rm -rf jio_gtest/
+ 1420  ll
+ 1421  rm unin.txt 
+ 1422  ll
+ 1423  mkdir jio_test
+ 1424  ll
+ 1425  cd jio_test/
+ 1426  ll
+ 1427  vim test.cpp
+ 1428  sudo apt-get uninstall libgtest-dev
+ 1429  sudo apt-get remove libgtest-dev
+ 1430  ll
+ 1431  sudo apt-get remove libgmock-dev
+ 1432  sudo apt-get remove googlemock
+ 1433  ll
+ 1434  cd /usr/src/
+ 1435  ll
+ 1436  cd g
+ 1437  cd googletest/
+ 1438  ll
+ 1439  cd ../
+ 1440  ll
+ 1441  rm -rf gmock
+ 1442  sudo rm -rf gmock
+ 1443  ll
+ 1444  sudo rm -rf googletest/
+ 1445  ll
+ 1446  LL
+ 1447  ll
+ 1448  sudo apt-get install libgtest-dev
+ 1449  ll
+ 1450  sudo apt-get install cmake
+ 1451  ll
+ 1452  cd gtest
+ 1453  ll
+ 1454  sudo apt-get remove libgtest-dev
+ 1455  ll
+ 1456  sudo apt-get install libgtest-dev
+ 1457  ll
+ 1458  cd /usr/src/
+ 1459  ll
+ 1460  cd code/gtest_simple/
+ 1461  g++ ownmock.cpp -lpthread -lgtest -lgmock -lgtest_main 
+ 1462  ll
+ 1463  ./a.out 
+ 1464  sudo apt-get remove libgtest-dev
+ 1465  g++ ownmock.cpp -lpthread -lgtest -lgmock -lgtest_main 
+ 1466  ./a.out 
+ 1467  g++ mock.cpp -lpthread -lgtest -lgmock -lgtest_main 
+ 1468  sudo apt autoremove
+ 1469  g++ ownmock.cpp -lpthread -lgtest -lgmock -lgtest_main 
+ 1470  ll
+ 1471  vim test.cpp 
+ 1472  g++ test.cpp -lgtest
+ 1473  g++ test.cpp -lgmock
+ 1474  ll
+ 1475  g++ ownmock.cpp -lpthread -lgtest -lgmock -lgtest_main 
+ 1476  g++ test.cpp -lgmock -lgtest -lgtest_main 
+ 1477  g++ test.cpp -lgmock -lgtest -lgtest_main -lpthread
+ 1478  ll
+ 1479  sudo apt-get install  google-mock
+ 1480  ll
+ 1481  cd code/gtest_simple/
+ 1482  ll
+ 1483  g++ ownmock.cpp -lpthread -lgtest -lgmock -lgtest_main 
+ 1484  cd code/
+ 1485  ll
+ 1486  cd gtest_simple/
+ 1487  ll
+ 1488  g++ ownmock.cpp -lpthread -lgtest -lgmock -lgtest_main 
+ 1489  ./a.out 
+ 1490  ll
+ 1491  cd /usr/src/
+ 1492  ll
+ 1493  cd gtest 
+ 1494  chmod 777 gtest 
+ 1495  ll
+ 1496  sudo apt-get uninstall libgtest-dev
+ 1497  sudo apt-get remove libgtest-dev
+ 1498  cd /usr/lib
+ 1499  ll
+ 1500  rm libgtest*
+ 1501  ll
+ 1502  sudo \rm libgtest*
+ 1503  ll
+ 1504  cd ../
+ 1505  ll
+ 1506  cd src/ll
+ 1507  cd src/
+ 1508  ll
+ 1509  cd
+ 1510  man apt-get
+ 1511  sudo apt-get install googletest
+ 1512  sudo apt autoremove
+ 1513  sudo apt-get remove googletest
+ 1514  ll
+ 1515  sudo apt-get install libgtest-dev
+ 1516  cd code/gtest_S
+ 1517  cd code/gtest_simple/
+ 1518  ll
+ 1519  g++ ownmock.cpp -lpthread -lgtest -lgmock -lgtest_main 
+ 1520  cd /usr/src/
+ 1521  l
+ 1522  ll
+ 1523  cd gtest/
+ 1524  ll
+ 1525  sudo cmake CMakeLists.txt
+ 1526  ll
+ 1527  sudo make
+ 1528  ll
+ 1529  sudo cp *.a /usr/lib
+ 1530  cd ../
+ 1531  cd ../l
+ 1532  cd ../
+ 1533  ll
+ 1534  cd lib
+ 1535  ll
+ 1536  sudo rm libgtest*
+ 1537  ll
+ 1538  cd ../src/
+ 1539  ll
+ 1540  cd googletest/
+ 1541  ll
+ 1542  cd googletest/
+ 1543  ll
+ 1544  cd ../../
+ 1545  ll
+ 1546  rm -ef googletest/
+ 1547  rm -rf googletest/
+ 1548  sudo rm -rf googletest/
+ 1549  ll
+ 1550  cd ../
+ 1551  grep -lr "gmock"
+ 1552  cd local/lib/
+ 1553  ll
+ 1554  rm libgmock.a libgmock_main.a 
+ 1555  sudo rm libgmock.a libgmock_main.a 
+ 1556  ll
+ 1557  cd ../
+ 1558  ll
+ 1559  cd lib
+ 1560  ll
+ 1561  cd ../
+ 1562  ll
+ 1563  cd srcq
+ 1564  cd src
+ 1565  ll
+ 1566  cd gmock/
+ 1567  ll
+ 1568  sudo cmake CMakeLists.txt 
+ 1569  ll
+ 1570  make
+ 1571  sudo make
+ 1572  ll
+ 1573  cd build-aux/
+ 1574  ll
+ 1575  cd ../
+ 1576  ll
+ 1577  find . -iname "libgmock_main.a"
+ 1578  find . -iname "libgtest_main.a"
+ 1579  ll
+ 1580  cp *.a ../../lib/
+ 1581  cp *.a ../../lib/.
+ 1582  cp *.a /usr/local/lib/
+ 1583  sudo cp *.a /usr/local/lib/
+ 1584  cd gtest/
+ 1585  ll
+ 1586  sudo cp *.a /usr/local/lib/
+ 1587  cd /usr/local/lib/
+ 1588  ll
+ 1589  history
+ 1590  sudo snap install simplenote
+ 1591  cd code/
+ 1592  ll
+ 1593  mkdir makefile_dir
+ 1594  cd makefile_dir/
+ 1595  ll
+ 1596  touch main.cpp message.cpp message.hpp
+ 1597  ll
+ 1598  make 
+ 1599  make
+ 1600  ll
+ 1601  ./output 
+ 1602  make
+ 1603  ll
+ 1604  ./output 
+ 1605  ll
+ 1606  vim Makefile 
+ 1607  cc
+ 1608  COMPILE.cc
+ 1609  vim Makefile 
+ 1610  make -f Makefile 
+ 1611  ll
+ 1612  vim main.cpp 
+ 1613  make -f Makefile 
+ 1614  ll
+ 1615  vim Makefile 
+ 1616  make clean
+ 1617  vim Makefile 
+ 1618  make clean
+ 1619  ll
+ 1620  make -f Makefile 
+ 1621  ll
+ 1622  vim Makefile 
+ 1623  make -f Makefile 
+ 1624  ll
+ 1625  ./output 
+ 1626  make clean
+ 1627  ll
+ 1628  make -f Makefile 
+ 1629  cd code/
+ 1630  l
+ 1631  ll
+ 1632  cd makefile_dir/
+ 1633  l
+ 1634  ll
+ 1635  ./output 
+ 1636  make 
+ 1637  make clean
+ 1638  make
+ 1639  ./output 4
+ 1640  ./output 
+ 1641  cd ../
+ 1642  ll
+ 1643  c
+ 1644  ll
+ 1645  cd Yearbook/
+ 1646  ll
+ 1647  source yearbookenv/bin/activate
+ 1648  ll
+ 1649  python3 manage.py runserver
+ 1650  ll
+ 1651  cd ../
+ 1652  ll
+ 1653  mkdir YearbookIID
+ 1654  ll
+ 1655  cd YearbookIID/
+ 1656  255555555352
+ 1657  255
+ 1658  226
+ 1659  ll
+ 1660  git clone https://github.com/devclub-iitd/Yearbook.git
+ 1661  ll
+ 1662  cd Yearbook/
+ 1663  ll
+ 1664  cd app/
+ 1665  ll
+ 1666  python3 manage.py runserver
+ 1667  ll
+ 1668  cd ..
+ 1669  ll
+ 1670  deactivate
+ 1671  virtualenv yearbookiitd
+ 1672  ll
+ 1673  source yearbookiitd/bin/activate
+ 1674  ll
+ 1675  cd app/
+ 1676  ll
+ 1677  pip3 install -p requirements.txt 
+ 1678  pip3 install -r requirements.txt 
+ 1679  vim requirements.txt 
+ 1680  pip3 install -r requirements.txt 
+ 1681  pip3 list
+ 1682  ll
+ 1683  python3 manage.py runserver
+ 1684  sudo apt-get install libpq-dev
+ 1685  ll
+ 1686  which pg_config
+ 1687  ll
+ 1688  python3 manage.py makemigrations
+ 1689  cd ../
+ 1690  ;;
+ 1691  ll
+ 1692  cd app/
+ 1693  ll
+ 1694  cd ../
+ 1695  ;;
+ 1696  ll
+ 1697  vim ./env_example
+ 1698  ll
+ 1699  ls -a
+ 1700  cd app/
+ 1701  ll
+ 1702  ll -a
+ 1703  source <(sed -E -e "s/^([^#])/export \1/" -e "s/=/='/" -e "s/(=.*)$/\1'/" .env)
+ 1704  cd yearbook/
+ 1705  ll
+ 1706  cd ../
+ 1707  ll
+ 1708  cd ../
+ 1709  ;;
+ 1710  ll
+ 1711  source <(sed -E -e "s/^([^#])/export \1/" -e "s/=/='/" -e "s/(=.*)$/\1'/" .env)
+ 1712  source <(sed -E -e "s/^([^#])/export \1/" -e "s/=/='/" -e "s/(=.*)$/\1'/" .env_secret)
+ 1713  source <(sed -E -e "s/^([^#])/export \1/" -e "s/=/='/" -e "s/(=.*)$/\1'/" .env.secret)
+ 1714  source <(sed -E -e "s/^([^#])/export \1/" -e "s/=/='/" -e "s/(=.*)$/\1'/" .env_example)
+ 1715  vim .env.secret
+ 1716  cd Documentation/
+ 1717  ll
+ 1718  cd ../
+ 1719  ll
+ 1720  cd app/
+ 1721  ll
+ 1722  python3 manage.py makemigrations
+ 1723  pip3 install psycopg2==2.8.4
+ 1724  python3 manage.py makemigrations
+ 1725  ll
+ 1726  cd ../
+ 1727  ll
+ 1728  vim .env_example
+ 1729  python3 manage.py makemigrations
+ 1730  cd app/
+ 1731  python3 manage.py makemigrations
+ 1732  cd ../
+ 1733  grep -lIr "localhost  # db for docker and localhost for normal localhost working of the app"
+ 1734  grep -lIr "localhost  "
+ 1735  grep -lr "localhost"
+ 1736  grep -lr "db for docker and localhost f"
+ 1737  ll
+ 1738  cd ../
+ 1739  ll
+ 1740  cd Yearbook/
+ 1741  ll
+ 1742  cd app/
+ 1743  vim ./env_example
+ 1744  vim ./.env_example
+ 1745  vim .env_example
+ 1746  ll
+ 1747  cd ../
+ 1748  vim .env_example
+ 1749  POSTGRES_DEPLOYMENT_MODE
+ 1750  printenvPOSTGRES_DEPLOYMENT_MODE
+ 1751  printenv POSTGRES_DEPLOYMENT_MODE
+ 1752  ll
+ 1753  vim .env.secret 
+ 1754  source <(sed -E -e "s/^([^#])/export \1/" -e "s/=/='/" -e "s/(=.*)$/\1'/" .env_example)
+ 1755  printenv POSTGRES_DEPLOYMENT_MODE
+ 1756  cd app/
+ 1757  ll
+ 1758  python3 manage.py makemigrations
+ 1759  python3 manage.py migrate 
+ 1760  python3 manage.py runserver
+ 1761  sudo systemctl start postgresql
+ 1762  ps -ef | grep postgres
+ 1763  sudo apt-get install postgresql
+ 1764  ps -ef | grep postgres
+ 1765  ll
+ 1766  sudo su - postgres
+ 1767  ll
+ 1768  python3 manage.py runserver
+ 1769  sudo su - postgres
+ 1770  python3 manage.py runserver
+ 1771  python3 manage.py makemigrations
+ 1772  python3 manage.py runserver
+ 1773  grep -lr "batman"
+ 1774  vim yearbook/settings.py
+ 1775  ll
+ 1776  cd ../
+ 1777  ll
+ 1778  vim .env_example
+ 1779  source <(sed -E -e "s/^([^#])/export \1/" -e "s/=/='/" -e "s/(=.*)$/\1'/" .env_example)
+ 1780  cd app/
+ 1781  python3 manage.py makemigrations
+ 1782  python3 manage.py migrate 
+ 1783  python3 manage.py createsuperuser
+ 1784  ll
+ 1785  cd ../
+ 1786  ll
+ 1787  find . -iname "setAdminTable.py"
+ 1788  cd app/
+ 1789  ll
+ 1790  python3 setAdminTable.py 
+ 1791  python3 manage.py runserver
+ 1792  ll
+ 1793  vim yearbook/settings.py 
+ 1794  ll
+ 1795  python3 manage.py runserver
+ 1796  grep -lr "authLinkPart1"
+ 1797  vim myapp/views.py
+ 1798  ll
+ 1799  cd ../../
+ 1800  cd ../
+ 1801  ll
+ 1802  cd Yearbook
+ 1803  deacticate
+ 1804  deactivate
+ 1805  ll
+ 1806  source yearbookenv/bin/activate
+ 1807  ll
+ 1808  python3 manage.py runserver
+ 1809  ll
+ 1810  python3 manage.py runserver
+ 1811  ll
+ 1812  python3 manage.py makemigrations
+ 1813  deactivate
+ 1814  ll
+ 1815  python3 manage.py runserver
+ 1816  ll
+ 1817  vim year15.log 
+ 1818  grep -lr "yearbook"
+ 1819  grep -lIr "yearbook"
+ 1820  vim Yearbook/urls.py
+ 1821  vim Yearbook/settings.py 
+ 1822  sudo spt-get install pdftk
+ 1823  sudo apt-get install pdftk
+ 1824  sudo apt install git default-jdk-headless ant \
+ 1825  sudo apt install git default-jdk-headless ant 
+ 1826  sudo add-apt-repository ppa:malteworld/ppa
+ 1827  sudo apt-get update
+ 1828  sudo apt install pdftk
+ 1829  gs
+ 1830  ll
+ 1831  cd Documents/
+ 1832  ll
+ 1833  cd ../
+ 1834  cd Downloads/
+ 1835  ll
+ 1836  gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=screen -sOutputFile=output.pdf finaleceyb.pdf 
+ 1837  gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -sOutputFile=output.pdf finaleceyb.pdf 
+ 1838  ll
+ 1839  vim shrink.sh
+ 1840  ll
+ 1841  chmod 777 shrink.sh 
+ 1842  ll
+ 1843  ./shrink.sh finaleceyb.pdf > output.pdf
+ 1844  ll
+ 1845  cd ../
+ 1846  ll
+ 1847  cd code/
+ 1848  ll
+ 1849  cd makefile_dir/
+ 1850  ll
+ 1851  make clean
+ 1852  ll
+ 1853  g++ -c -fPIC message.cpp -o message.o
+ 1854  ll
+ 1855  g++ -shared -Wl,-soname,-libmessage.so -o message.o
+ 1856  ll
+ 1857  g++ -shared -Wl,-soname,-libmessage.so -o message.so message.o
+ 1858  ll
+ 1859  rm message.o
+ 1860  ll
+ 1861  g++ -c -fPIC message.cpp -o message.o
+ 1862  ll
+ 1863  g++ -shared -Wl,-soname,-libmessage.so -o message.so message.o
+ 1864  ll
+ 1865  g++ -o output  main.cpp -L. -lmessage
+ 1866  ll
+ 1867  make clean
+ 1868  ll
+ 1869  rm message.so
+ 1870  ll
+ 1871  make -f Makefile 
+ 1872  ll
+ 1873  make clean
+ 1874  ll
+ 1875  g++ -fPIC -c -Wall message.cpp
+ 1876  ll
+ 1877  ld -shared message.o -o libmessage.so
+ 1878  ll
+ 1879  g++ -shared message.o -o libmessage.so
+ 1880  ll
+ 1881  make clean
+ 1882  l
+ 1883  ll
+ 1884  make
+ 1885  ll
+ 1886  g++ -Wall main.cpp -lmessage
+ 1887  ped
+ 1888  pwd
+ 1889  make clean
+ 1890  make
+ 1891  ll
+ 1892  make 
+ 1893  ll
+ 1894  make
+ 1895  make clean
+ 1896  make
+ 1897  make clean
+ 1898  ll
+ 1899  make
+ 1900  make clean
+ 1901  make
+ 1902  ll
+ 1903  ./output 
+ 1904  ll
+ 1905  cp libmessage.so /usr/lib/.
+ 1906  sudo cp libmessage.so /usr/lib/.
+ 1907  ./output 
+ 1908  ll
+ 1909  make clean
+ 1910  make
+ 1911  ll
+ 1912  ./output 
+ 1913  run.sh
+ 1914  ll
+ 1915  make clean
+ 1916  ll
+ 1917  make 
+ 1918  ll
+ 1919  make clean
+ 1920  ll
+ 1921  make
+ 1922  kk
+ 1923  ll
+ 1924  man g++
+ 1925  ll
+ 1926  pwd
+ 1927  make clean
+ 1928  ll
+ 1929  make
+ 1930  ./output 
+ 1931  make clean
+ 1932  make
+ 1933  ll
+ 1934  ./output 
+ 1935  make clean
+ 1936  ll
+ 1937  make
+ 1938  ll
+ 1939  ./output 
+ 1940  cd ../../
+ 1941  ll
+ 1942  cd glibc-2.31/
+ 1943  ;;
+ 1944  ll
+ 1945  grep -lIr "va_list"
+ 1946  grep -lr "printf" |grep ".h"
+ 1947  grep -lr "printf"
+ 1948  find . -iname "stdarg.h"
+ 1949  find . -iname "stdio.h"
+ 1950  find . -iname "stdio.c"
+ 1951  vim ./libio/stdio.c
+ 1952  l
+ 1953  ll
+ 1954  ll
+ 1955  cd code/
+ 1956  ll
+ 1957  cd test/
+ 1958  ll
+ 1959  cd ../
+ 1960  ;;
+ 1961  ll
+ 1962  cd test/
+ 1963  ll
+ 1964  vim test.cpp 
+ 1965  ll
+ 1966  rm test.cpp 
+ 1967  ll
+ 1968  cd ../
+ 1969  ll
+ 1970  mkdir checkdir
+ 1971  ll
+ 1972  cd checkdir/
+ 1973  ll
+ 1974  mkdir va_list
+ 1975  ll
+ 1976  cd va_list/
+ 1977  ll
+ 1978  ;;
+ 1979  ll
+ 1980  subl
+ 1981  subl main.cpp
+ 1982  ll
+ 1983  g++ main.cpp 
+ 1984  ./a.out 
+ 1985  ll
+ 1986  man va_start
+ 1987  ll
+ 1988  g++ main.cpp 
+ 1989  ./a.out 
+ 1990  ll
+ 1991  gdb a.out 
+ 1992  ll
+ 1993  ./a.out 
+ 1994  g++ main.cpp 
+ 1995  ./a.out 
+ 1996  g++ main.cpp 
+ 1997  ./a.out a
+ 1998  ./a.out 
+ 1999  g++ main.cpp 
+ 2000  ./a.out 
+ 2001  ll
+ 2002  cd code/
+ 2003  ll
+ 2004  cd checkdir/
+ 2005  ll
+ 2006  cd va_list/
+ 2007  ll
+ 2008  ./a.out 
+ 2009  cd ../
+ 2010  ll
+ 2011  cp va_list 1_va_list
+ 2012  cp -r va_list 1_va_list
+ 2013  ll
+ 2014  rm va_list/
+ 2015  rm -rf va_list/
+ 2016  ll
+ 2017  mkdir 2_variadic_template
+ 2018  ll
+ 2019  cd 2_variadic_template/
+ 2020  ll
+ 2021  subl main.cpp
+ 2022  g++ main.cpp 
+ 2023  ./a.out 
+ 2024  g++ main.cpp 
+ 2025  ./a.out 
+ 2026  cd ../
+ 2027  ll
+ 2028  mkdir 3_ref_and_pointers
+ 2029  cd 3_ref_and_pointers/
+ 2030  ll
+ 2031  subl main.cpp
+ 2032  cd ../
+ 2033  ll
+ 2034  subl notes.txt
+ 2035  ll
+ 2036  cd ../
+ 2037  ll
+ 2038  cd gtest_simple/
+ 2039  LL
+ 2040  ll
+ 2041  make
+ 2042  cd cpp-gtest/
+ 2043  ;;
+ 2044  ll
+ 2045  make
+ 2046  vim Makefile 
+ 2047  ll
+ 2048  cd ../
+ 2049  ll
+ 2050  cd ../
+ 2051  ll
+ 2052  cd gtest
+ 2053  ll
+ 2054  cd gtest-cmake-example/
+ 2055  ll
+ 2056  cd ../
+ 2057  ll
+ 2058  cd ../
+ 2059  ll
+ 2060  cd gtest_simple/
+ 2061  ll
+ 2062  ./a.out 
+ 2063  ll
+ 2064  vim ownmock.cpp 
+ 2065  g++ -lgtest  ownmock.cpp '
+ 2066  g++ -lgtest  ownmock.cpp 
+ 2067  g++ -std=c++11 -lgtest  ownmock.cpp 
+ 2068  ll
+ 2069  g++ -std=c++11 -lgtest  -lgtest_main ownmock.cpp 
+ 2070  ll
+ 2071  cd cpp-gtest/
+ 2072  ll
+ 2073  vim Makefile 
+ 2074  ll
+ 2075  cd ../
+ 2076  ll
+ 2077  g++ -std=c++11 -lgtest  -lgtest_main ownmock.cpp 
+ 2078  g++ -lgtest  -lgtest_main ownmock.cpp 
+ 2079  g++ -lgtest  -lgtest_main -std=c++11 ownmock.cpp 
+ 2080  history >file.txt
